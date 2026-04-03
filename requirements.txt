@@ -5,7 +5,6 @@ import socket
 import random
 import logging
 from telebot import types
-
 # Setup logging to chronicle our reign of terrorlogging.basicConfig(filename='dark_lag_hell.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')# Replace 'YOUR_BOT_TOKEN' with your Telegram bot token from BotFather
 BOT_TOKEN = 'YOUR_BOT_TOKEN'
 bot = telebot.TeleBot(BOT_TOKEN)# Track targets and attack states
